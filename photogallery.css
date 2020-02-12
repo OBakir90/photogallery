@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.photogallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 25%;
+    width: 25%;
+    margin: 3%;
+    cursor: pointer;
+    transition: transform .2s;
+    border: 3px black solid;
+    clip-path: ;
+}
+
+img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.4);
+}
